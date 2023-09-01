@@ -41,18 +41,14 @@ const App = () => {
                     }
                        
                     {
-                        <div className='col-sm'>
+                        <div className='col-12'>
                             <ExpenseList />
                         </div>
                     }
 
-                    {
-                        <div className='col-sm'>
-                            <ExpenseItem />
-                        </div>
-                    }
+                    
 
-                    {<div className='col-sm'>
+                    {<div className='col-12'>
                         <AllocationForm />
                     </div>
                     }
