@@ -11,7 +11,7 @@ const AllocationForm = (props) => {
     const submitEvent = () => {
 
         if (cost > remaining) {
-            alert("The value cannot exceed remaining funds  £" + remaining);
+            alert("The value cannot exceed remaining funds  ï¿½" + remaining);
             setCost("");
             return;
         }
@@ -35,7 +35,7 @@ const AllocationForm = (props) => {
 
     return (
         <div>
-            <div className='row'>
+            <div className='row border-top border-primary m-2 p-4'>
 
                 <div className="input-group mb-3" style={{ marginLeft: '2rem' }}>
                     <div className="input-group-prepend">
